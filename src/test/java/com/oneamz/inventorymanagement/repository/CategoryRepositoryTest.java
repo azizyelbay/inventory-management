@@ -26,7 +26,6 @@ public class CategoryRepositoryTest {
 
     @BeforeEach
     public void setup() {
-        // Pre-populate the database with a category, if necessary.
         Category electronics = new Category();
         electronics.setName("Electronics");
         categoryRepository.save(electronics);

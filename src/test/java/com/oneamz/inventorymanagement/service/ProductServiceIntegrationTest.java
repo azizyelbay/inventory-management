@@ -51,7 +51,6 @@ class ProductServiceIntegrationTest {
 
         // Assert
         assertEquals(2, result.size());
-        // Add more assertions if needed
     }
 
     @Test
@@ -67,7 +66,6 @@ class ProductServiceIntegrationTest {
 
         // Assert
         assertEquals(1, productService.getAllProducts().size());
-        // Add more assertions if needed
     }
 
 }
